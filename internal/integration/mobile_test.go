@@ -8,8 +8,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sclevine/agouti"
-	. "github.com/sclevine/agouti/matchers"
+	"github.com/Flagon00/agouti"
+	. "github.com/Flagon00/agouti/matchers"
 )
 
 func testMobile(browserName string, newPage pageFunc) {

@@ -1,6 +1,6 @@
 package mobile
 
-import "github.com/sclevine/agouti/api"
+import "github.com/Flagon00/agouti/api"
 
 type Session struct {
 	*api.Session

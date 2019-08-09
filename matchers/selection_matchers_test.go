@@ -3,8 +3,8 @@ package matchers_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/matchers"
-	"github.com/sclevine/agouti/matchers/internal/mocks"
+	. "github.com/Flagon00/agouti/matchers"
+	"github.com/Flagon00/agouti/matchers/internal/mocks"
 )
 
 var _ = Describe("Selection Matchers", func() {

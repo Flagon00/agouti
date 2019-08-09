@@ -32,13 +32,7 @@ func PhantomJS(options ...Option) *WebDriver {
 // Provided Options will apply as default arguments for new pages.
 // New pages will accept invalid SSL certificates by default. This
 // may be disabled using the RejectInvalidSSL Option.
-func ChromeDriver(options ...Option) *WebDriver {
-	var binaryName string
-	if runtime.GOOS == "windows" {
-		binaryName = "chromedriver.exe"
-	} else {
-		binaryName = "chromedriver"
-	}
+func ChromeDriver(binaryName string, options ...Option) *WebDriver {
 	command := []string{binaryName, "--port={{.Port}}"}
 	return NewWebDriver("http://{{.Address}}", command, options...)
 }

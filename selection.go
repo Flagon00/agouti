@@ -3,9 +3,9 @@ package agouti
 import (
 	"fmt"
 
-	"github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/internal/element"
-	"github.com/sclevine/agouti/internal/target"
+	"github.com/Flagon00/agouti/api"
+	"github.com/Flagon00/agouti/internal/element"
+	"github.com/Flagon00/agouti/internal/target"
 )
 
 // Selection instances refer to a selection of elements.

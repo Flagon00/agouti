@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/internal/element"
-	"github.com/sclevine/agouti/internal/target"
+	"github.com/Flagon00/agouti/api"
+	"github.com/Flagon00/agouti/internal/element"
+	"github.com/Flagon00/agouti/internal/target"
 )
 
 type actionsFunc func(element.Element) error

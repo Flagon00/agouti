@@ -4,9 +4,9 @@ import (
 	"errors"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/internal/matchers"
-	. "github.com/sclevine/agouti/matchers/internal"
-	"github.com/sclevine/agouti/matchers/internal/mocks"
+	. "github.com/Flagon00/agouti/internal/matchers"
+	. "github.com/Flagon00/agouti/matchers/internal"
+	"github.com/Flagon00/agouti/matchers/internal/mocks"
 )
 
 var _ = Describe("EqualElementMatcher", func() {

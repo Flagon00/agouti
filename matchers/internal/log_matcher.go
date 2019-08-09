@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/onsi/gomega/format"
-	"github.com/sclevine/agouti"
+	"github.com/Flagon00/agouti"
 )
 
 type LogMatcher struct {

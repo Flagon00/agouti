@@ -5,11 +5,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sclevine/agouti/api"
-	. "github.com/sclevine/agouti/internal/element"
-	. "github.com/sclevine/agouti/internal/matchers"
-	"github.com/sclevine/agouti/internal/mocks"
-	"github.com/sclevine/agouti/internal/target"
+	"github.com/Flagon00/agouti/api"
+	. "github.com/Flagon00/agouti/internal/element"
+	. "github.com/Flagon00/agouti/internal/matchers"
+	"github.com/Flagon00/agouti/internal/mocks"
+	"github.com/Flagon00/agouti/internal/target"
 )
 
 var _ = Describe("ElementRepository", func() {
